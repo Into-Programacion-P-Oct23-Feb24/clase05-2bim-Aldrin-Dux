@@ -20,21 +20,31 @@ public class Ejemplo06 {
             System.out.printf("El valor es: %d\n", 
                     obtenerSuma(valor1[i], valor2[i]));
         }
-        
+        /*
+        En este primero estamos llamando de forma directa a la funcion, y enviamos
+        como parametro el valor que tenga el arreglo en dicha posicion
+        */
         for (int i = 0; i < valor1.length; i++) {
             int num1 = valor1[i];
             int num2 = valor2[i];
             System.out.printf("El valor es: %d\n", 
                     obtenerSuma(num1, num2));
         }
-        
+        /*
+        En cambio aqui tomamos dos variables para a cada arreglo y les dimos el 
+        valor que tiene el arreglo en dicha posicion y se lo mandamos como 
+        parametros que lo obtendra la funcion
+        */
         for (int i = 0; i < valor1.length; i++) {
             int num1 = valor1[i];
             int num2 = valor2[i];
             int suma = obtenerSuma(num1, num2); 
             System.out.printf("El valor es: %d\n", suma);
         }
-        
+        /*
+        aqui se toma tres variables para adquiririr los valores, dos para enviar
+        como parametro y uno para presentar al final 
+        */
         
 
     }

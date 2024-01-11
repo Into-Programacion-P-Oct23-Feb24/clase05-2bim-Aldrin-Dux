@@ -9,5 +9,14 @@ package paquete03;
  * @author aldrin
  */
 public class EjercicioC1 {
-    
+
+    public static void main(String[] args) {
+
+    }
+
+    public static String[][] generarArreglo() {
+        String[][] arreglo = {{"LOJA", "CUENCA", "QUITO"}, {"GUAYAQUIL",
+            "ZAMORA", "MACHALA"}};
+        return arreglo;
+    }
 }
